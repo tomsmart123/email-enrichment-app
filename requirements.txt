@@ -1,5 +1,5 @@
 streamlit
 openai
-serpapi
+google-search-results
 pandas
 requests
