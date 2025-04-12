@@ -5,9 +5,9 @@ from openai import OpenAI
 import re
 
 # === API KEYS ===
-openai_key = "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"
-hunter_key = "aba3888d517de289eed46386ccd5d10f20b66d72"
-serpapi_key = "b39cfb0f232ecfef22c89b326e6123cb5fc08e5919504e37c7880b88f3689ce9"
+OPENAI_KEY = "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"
+HUNTER_KEY = "aba3888d517de289eed46386ccd5d10f20b66d72"
+SERPAPI_KEY = "b39cfb0f232ecfef22c89b326e6123cb5fc08e5919504e37c7880b88f3689ce9"
 client = OpenAI(api_key=openai_key)
 
 # === Nickname Map ===
